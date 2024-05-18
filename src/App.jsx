@@ -1,16 +1,9 @@
+import React from 'react'
 
-import NavBar from './Components/NavBar/NavBar'
-
-function App() {
-  
-
+export default function App() {
   return (
-      <div className=' w-full h-screen bg-zinc-900 text-white'>
-        <NavBar />
-
-      </div>
-    
+    <div>
+      <h2>Hello World</h2>
+    </div>
   )
 }
-
-export default App
